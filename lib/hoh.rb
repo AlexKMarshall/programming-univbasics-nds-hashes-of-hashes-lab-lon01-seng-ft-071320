@@ -46,14 +46,15 @@ def naming_system
     sub_category: {
       label: "Phylum",
       sub_category: {
-        label: "Class"
+        label: "Class",
         sub_category: {
-         label: "Order",
-         sub_category: {
-           label: "Family",
-           sub_category: {}
-         }
-       }
+          label: "Order",
+          sub_category: {
+            label: "Family",
+            sub_category: {}
+          }
+        }
       }
     }
+  }
 end
